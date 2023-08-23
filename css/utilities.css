@@ -1,11 +1,7 @@
    /* Utilities */
    .container {
-    max-width: 1100px; /* we can define this in the .navbar class also
-                          but since we are going to use this .container class
-                          in different containers like: showcase, stats, CLI, cloud,
-                          launguages, footer so we are mentioning it in here as a common class */
+    max-width: 1100px; 
     margin: 0 auto;
-  /*  overflow: auto; */
     padding: 0 40px;
 }
 
@@ -140,9 +136,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height:100%; /* this height property defines how much % of the items in .flex class
-                    which is h1 and nav bar should be present in the container.
-                    Try to change the value to 50% and see the result */
+    height:100%;
 }
 
 .grid {
