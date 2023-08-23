@@ -32,7 +32,7 @@ a {
 }
 
 h1, h2 {
-    font-weight: 300; /* make it less bold */
+    font-weight: 300;
     line-height: 1.2;
     margin: 10px 0px;
 }
@@ -42,8 +42,7 @@ p {
 }
 
 img {
-    width: 100%; /* so that the img occupy the whole container if it is small
-                    or adjust in the container if it is large in size*/
+    width: 100%;
 }
 
 
@@ -106,8 +105,8 @@ img {
     height: 350px;
     width: 400px;
     padding: 40px;
-    z-index: 100; /* the item will be always at the front of the image or background */
-    justify-self: flex-end; /* to push the form to the right i.e and the end of the showcase container */
+    z-index: 100; 
+    justify-self: flex-end; 
     animation: slideInFromRight 1s ease-in;
 }
 
@@ -115,8 +114,8 @@ img {
     margin: 30px 0;
 }
 
-.showcase-form input[type='text'],   /* .form-control is also applicable in place of .showcase-form */
-.showcase-form input[type='email'] { /* .form-control is also applicable in place of .showcase-form */
+.showcase-form input[type='text'],   
+.showcase-form input[type='email'] { 
     border: 0;
     border-bottom: 1px solid #b4becb;
     width: 100%;
@@ -130,13 +129,12 @@ img {
 
 .showcase::before,
 .showcase::after {
-    content:'';    /* without mention "content" property this pseudo-element selector property(::) will not work */
-                  /* you can blank the value of content property */
+    content:'';   
     position: absolute;
     height: 100px;
     bottom: -70px;
-    right: 0px;      /* without mentioning the value of right and left property it will not work */                  
-    left: 0px;      /* without mentioning the value of right and left property it will not work */
+    right: 0px;      
+    left: 0px;
     background: #fff;
     transform: skewY(-3deg);
     -webkit-transform: skewY(-3deg);
@@ -147,10 +145,7 @@ img {
 
    /* Stats */
     .stats {
-/*  position: relative;
-    top: 100px; */
-
-    padding-top: 100px; /* we can also do this by mention the position: relative property as mention above */ 
+    padding-top: 100px; 
     animation: slideInFromBottom 1s ease-in;
     }
 
